@@ -1,3 +1,5 @@
+extern crate signal_hook;
+
 use signal_hook::{iterator::Signals, SIGINT};
 use std::env;
 use std::process;
